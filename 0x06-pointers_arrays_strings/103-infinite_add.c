@@ -1,5 +1,4 @@
 #include "main.h"
-#include "main.h"
 
 /**
 * infinite_add - Adds two numbers.
@@ -12,6 +11,8 @@
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
+char *n = "1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458";
+char *m = "9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346";
 int len1, len2, carry = 0;
 int i, j, k;
 
